@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "name": "brand-optimismbh",
+  "alias": ["brand.optimismbh.com"],
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/$1" }
+  ]
+}
