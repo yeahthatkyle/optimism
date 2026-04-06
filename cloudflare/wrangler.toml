@@ -1,5 +1,5 @@
 name = "optimismbh-subdomain-proxy"
-main = "worker.js"
+main = "cloudflare/worker.js"
 compatibility_date = "2025-01-01"
 
 # Routes: Worker intercepts all traffic on these subdomains.
