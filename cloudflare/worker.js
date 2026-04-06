@@ -30,9 +30,13 @@ export default {
     const targetUrl = new URL(request.url);
     targetUrl.hostname = MAIN_DOMAIN;
 
+    // Strip the Host header so Lovable sees optimismbh.com, not the subdomain
+    const headers = new Headers(request.headers);
+    headers.delete("host");
+
     const response = await fetch(targetUrl.toString(), {
       method: request.method,
-      headers: request.headers,
+      headers,
     });
 
     // For HTML at the root path, inject a script that sets the correct
