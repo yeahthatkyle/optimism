@@ -1,0 +1,10 @@
+name = "optimismbh-subdomain-proxy"
+main = "worker.js"
+compatibility_date = "2025-01-01"
+
+# Routes: Worker intercepts all traffic on these subdomains.
+# zone_name must match the domain you added to Cloudflare.
+routes = [
+  { pattern = "crm.optimismbh.com/*", zone_name = "optimismbh.com" },
+  { pattern = "brand.optimismbh.com/*", zone_name = "optimismbh.com" },
+]
