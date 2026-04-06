@@ -14,7 +14,7 @@ const SUBDOMAIN_MAP = {
   "brand.optimismbh.com": "/brand",
 };
 
-const MAIN_DOMAIN = "optimismbh.com";
+const MAIN_DOMAIN = "optimisim.lovable.app";
 
 export default {
   async fetch(request) {
