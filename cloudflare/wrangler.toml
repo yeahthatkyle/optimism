@@ -1,10 +1,21 @@
-name = "optimismbh-subdomain-proxy"
+name = "optimismbh-worker"
 main = "worker.js"
 compatibility_date = "2025-01-01"
 
-# Routes: Worker intercepts all traffic on these subdomains.
+# Routes: Worker intercepts all traffic on the main domain and subdomains.
 # zone_name must match the domain you added to Cloudflare.
+#
+# Main domain routes handle:
+#   - SEO meta tag injection (title, description, OG, JSON-LD, canonical)
+#   - /robots.txt — updated to allow LLM indexing crawlers
+#   - /llms.txt   — LLM-friendly site summary for AI-powered search
+#
+# Subdomain routes handle path rewriting for the React app:
+#   crm.optimismbh.com   →  optimismbh.com/crm
+#   brand.optimismbh.com →  optimismbh.com/brand
 routes = [
+  { pattern = "optimismbh.com/*",     zone_name = "optimismbh.com" },
+  { pattern = "www.optimismbh.com/*", zone_name = "optimismbh.com" },
   { pattern = "crm.optimismbh.com/*", zone_name = "optimismbh.com" },
   { pattern = "brand.optimismbh.com/*", zone_name = "optimismbh.com" },
 ]
