@@ -264,13 +264,13 @@ const PAGE_META = {
     },
   },
   "/brad-kamal": {
-    title: "Brad Kamal | Director of Strategy | Optimism",
+    title: "Brad Kayal | Director of Strategy | Optimism",
     description:
       "Brad uncovers insights that fuel breakthrough brand strategies. His research-driven approach reveals opportunities others miss.",
     jsonLd: {
       "@context": "https://schema.org",
       "@type": "Person",
-      name: "Brad Kamal",
+      name: "Brad Kayal",
       jobTitle: "Director of Strategy",
       description:
         "Brad uncovers insights that fuel breakthrough brand strategies. His research-driven approach reveals opportunities others miss.",
