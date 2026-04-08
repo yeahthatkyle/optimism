@@ -119,60 +119,197 @@ const PAGE_META = {
   },
 
   // — Team —
-  "/matt-hofherr": {
-    title: "Matt Hofherr | Founding Partner | Optimism",
-    description:
-      "Matt Hofherr is a Founding Partner at Optimism (formerly Barrett Hofherr), an independent creative advertising agency in San Francisco.",
-  },
   "/jamie-barrett": {
-    title: "Jamie Barrett | Partner | Optimism",
+    title: "Jamie Barrett | Chief Creative Officer | Optimism",
     description:
-      "Jamie Barrett is a Partner at Optimism, the San Francisco independent creative advertising agency.",
+      "Jamie founded Optimism with a vision to build brands through cultural momentum. With decades of experience at top agencies, Jamie has led some of the most iconic campaigns in advertising history.",
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      name: "Jamie Barrett",
+      jobTitle: "Chief Creative Officer",
+      description:
+        "Jamie founded Optimism with a vision to build brands through cultural momentum. With decades of experience at top agencies, Jamie has led some of the most iconic campaigns in advertising history.",
+      worksFor: { "@type": "Organization", name: "Optimism", url: "https://optimismbh.com" },
+      image: "https://optimismbh.com/src/assets/people/jamie.jpg",
+      url: "https://optimismbh.com/jamie-barrett",
+    },
   },
-  "/kevin-albrecht": {
-    title: "Kevin Albrecht | Strategist of the Year | Optimism",
+  "/matt-hofherr": {
+    title: "Matt Hofherr | Partner, Chief Strategy Officer | Optimism",
     description:
-      "Kevin Albrecht is a strategist at Optimism and was named Strategist of the Year. He leads brand strategy at the agency.",
-  },
-  "/kyle-duford": {
-    title: "Kyle Duford | Associate Partner | Optimism",
-    description:
-      "Kyle Duford is Associate Partner and Director of Client Strategy Services at Optimism.",
-  },
-  "/conor-duignan": {
-    title: "Conor Duignan | Optimism",
-    description:
-      "Conor Duignan is a member of the team at Optimism, the San Francisco creative advertising agency.",
-  },
-  "/brad-kamal": {
-    title: "Brad Kamal | Optimism",
-    description:
-      "Brad Kamal is a member of the team at Optimism, the San Francisco creative advertising agency.",
-  },
-  "/charlotte-dugoni": {
-    title: "Charlotte Dugoni | Optimism",
-    description:
-      "Charlotte Dugoni is a member of the team at Optimism, the San Francisco creative advertising agency.",
-  },
-  "/stephanie-farmas": {
-    title: "Stephanie Farmas | Optimism",
-    description:
-      "Stephanie Farmas is a member of the team at Optimism, the San Francisco creative advertising agency.",
-  },
-  "/ted-bluey": {
-    title: "Ted Bluey | Optimism",
-    description:
-      "Ted Bluey is a member of the team at Optimism, the San Francisco creative advertising agency.",
+      "When Jamie moved to SF to work at Goodby Silverstein & Partners he moved into Matt's neighborhood and that's when the two of them became fast friends.",
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      name: "Matt Hofherr",
+      jobTitle: "Partner, Chief Strategy Officer",
+      description:
+        "When Jamie moved to SF to work at Goodby Silverstein & Partners he moved into Matt's neighborhood and that's when the two of them became fast friends.",
+      worksFor: { "@type": "Organization", name: "Optimism", url: "https://optimismbh.com" },
+      image: "https://optimismbh.com/src/assets/people/matt.jpg",
+      url: "https://optimismbh.com/matt-hofherr",
+    },
   },
   "/krista-osol": {
-    title: "Krista Osol | Optimism",
+    title: "Krista Osol | Director of Client Services | Optimism",
     description:
-      "Krista Osol is a member of the team at Optimism, the San Francisco creative advertising agency.",
+      "Krista is a seasoned professional in Client Services with 20 years of experience in advertising and marketing, inspiring creativity and mentoring diverse teams.",
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      name: "Krista Osol",
+      jobTitle: "Director of Client Services",
+      description:
+        "Krista is a seasoned professional in Client Services with 20 years of experience in advertising and marketing. Throughout her career, she has taken on leadership roles that enable her to inspire creativity, mentor diverse teams, manage budgets, lead pitches, and acquire new clients.",
+      worksFor: { "@type": "Organization", name: "Optimism", url: "https://optimismbh.com" },
+      image: "https://optimismbh.com/src/assets/people/krista.jpeg",
+      url: "https://optimismbh.com/krista-osol",
+    },
   },
   "/todd-eisner": {
-    title: "Todd Eisner | Optimism",
+    title: "Todd Eisner | Partner, Executive Creative Director | Optimism",
     description:
-      "Todd Eisner is a member of the team at Optimism, the San Francisco creative advertising agency.",
+      "Todd oversees operations and ensures seamless delivery across all projects. His strategic leadership has helped scale Optimism while maintaining the creative excellence that defines the agency.",
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      name: "Todd Eisner",
+      jobTitle: "Partner, Executive Creative Director",
+      description:
+        "Todd oversees operations and ensures seamless delivery across all projects. His strategic leadership has helped scale Optimism while maintaining the creative excellence that defines the agency.",
+      worksFor: { "@type": "Organization", name: "Optimism", url: "https://optimismbh.com" },
+      image: "https://kiifubxvxfdlpmsrueob.supabase.co/storage/v1/object/public/photos/leadership/todd.jpg",
+      url: "https://optimismbh.com/todd-eisner",
+    },
+  },
+  "/conor-duignan": {
+    title: "Conor Duignan | Partner, Head of Production | Optimism",
+    description:
+      "Conor drives the creative vision behind Optimism's award-winning campaigns. His work has been recognized at every major advertising award show and has helped define the voice of numerous iconic brands.",
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      name: "Conor Duignan",
+      jobTitle: "Partner, Head of Production",
+      description:
+        "Conor drives the creative vision behind Optimism's award-winning campaigns. His work has been recognized at every major advertising award show and has helped define the voice of numerous iconic brands.",
+      worksFor: { "@type": "Organization", name: "Optimism", url: "https://optimismbh.com" },
+      image: "https://optimismbh.com/src/assets/people/conor.jpg",
+      url: "https://optimismbh.com/conor-duignan",
+    },
+  },
+  "/kyle-duford": {
+    title: "Kyle Duford | Author & Partner | Optimism",
+    description:
+      "Kyle Duford is the author of 'The Brand Book,' 'Twice Found,' 'Optimism,' and 'Branding Without Permission.' He is also a partner at Optimism, an advertising agency in San Francisco.",
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      name: "Kyle Duford",
+      givenName: "Kyle",
+      familyName: "Duford",
+      url: "https://optimismbh.com/kyle-duford",
+      image: "https://kyleduford.com/kyle-headshot-2025.jpeg",
+      description:
+        "Kyle Duford is the author of 'The Brand Book,' 'Twice Found,' 'Optimism,' and 'Branding Without Permission.' He is also a partner at Optimism, an advertising agency in San Francisco.",
+      jobTitle: ["Author", "Brand Strategist", "Partner"],
+      worksFor: { "@type": "Organization", name: "Optimism", url: "https://optimismbh.com" },
+      spouse: { "@type": "Person", name: "Jerushah Duford" },
+      sameAs: [
+        "https://twitter.com/kyleduford",
+        "https://www.instagram.com/yeahthatkyle/",
+        "https://www.linkedin.com/in/kyleduford/",
+        "https://mastodon.social/@yeahthatkyle",
+      ],
+      author: [
+        { "@type": "Book", name: "Twice Found" },
+        { "@type": "Book", name: "The Brand Book" },
+        { "@type": "Book", name: "Branding Without Permission" },
+      ],
+      alumniOf: [{ "@type": "EducationalOrganization", name: "University of Colorado" }],
+      award: ["Webbie Award", "Telly Awards", "Addy Award", "NYX Awards"],
+    },
+  },
+  "/charlotte-dugoni": {
+    title: "Charlotte Dugoni | Associate Partner, Executive Producer | Optimism",
+    description:
+      "Charlotte leads production with precision and creative excellence. Her expertise spans film, digital, and experiential production.",
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      name: "Charlotte Dugoni",
+      jobTitle: "Associate Partner, Executive Producer",
+      description:
+        "Charlotte leads production with precision and creative excellence. Her expertise spans film, digital, and experiential production.",
+      worksFor: { "@type": "Organization", name: "Optimism", url: "https://optimismbh.com" },
+      image: "https://optimismbh.com/src/assets/people/charlotte.jpeg",
+      url: "https://optimismbh.com/charlotte-dugoni",
+    },
+  },
+  "/ted-bluey": {
+    title: "Ted Bluey | Associate Partner, Head of Design | Optimism",
+    description:
+      "Ted brings decades of experience to every production challenge. His calm leadership and deep industry relationships make the impossible possible.",
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      name: "Ted Bluey",
+      jobTitle: "Associate Partner, Head of Design",
+      description:
+        "Ted brings decades of experience to every production challenge. His calm leadership and deep industry relationships make the impossible possible.",
+      worksFor: { "@type": "Organization", name: "Optimism", url: "https://optimismbh.com" },
+      image: "https://optimismbh.com/src/assets/people/ted.jpg",
+      url: "https://optimismbh.com/ted-bluey",
+    },
+  },
+  "/brad-kamal": {
+    title: "Brad Kamal | Director of Strategy | Optimism",
+    description:
+      "Brad uncovers insights that fuel breakthrough brand strategies. His research-driven approach reveals opportunities others miss.",
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      name: "Brad Kamal",
+      jobTitle: "Director of Strategy",
+      description:
+        "Brad uncovers insights that fuel breakthrough brand strategies. His research-driven approach reveals opportunities others miss.",
+      worksFor: { "@type": "Organization", name: "Optimism", url: "https://optimismbh.com" },
+      image: "https://optimismbh.com/src/assets/people/brad.jpg",
+      url: "https://optimismbh.com/brad-kamal",
+    },
+  },
+  "/kevin-albrecht": {
+    title: "Kevin Albrecht | Ad Age Strategic Planner of the Year | Optimism",
+    description:
+      "Kevin is an Ad Age Strategic Planner of the Year, shaping brand futures with innovative thinking and deep consumer understanding.",
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      name: "Kevin Albrecht",
+      jobTitle: "Associate Partner, Associate Strategy Director",
+      description:
+        "Kevin is an Ad Age Strategic Planner of the Year, shaping brand futures with innovative thinking and deep consumer understanding.",
+      worksFor: { "@type": "Organization", name: "Optimism", url: "https://optimismbh.com" },
+      image: "https://optimismbh.com/src/assets/people/kevin.jpg",
+      url: "https://optimismbh.com/kevin-albrecht",
+    },
+  },
+  "/stephanie-farmas": {
+    title: "Stephanie Farmas | Marketing Director | Optimism",
+    description:
+      "Stephanie keeps Optimism running smoothly and efficiently. Her operational excellence enables the team to focus on what they do best: creating great work.",
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      name: "Stephanie Farmas",
+      jobTitle: "Marketing Director",
+      description:
+        "Stephanie keeps Optimism running smoothly and efficiently. Her operational excellence enables the team to focus on what they do best: creating great work.",
+      worksFor: { "@type": "Organization", name: "Optimism", url: "https://optimismbh.com" },
+      image: "https://optimismbh.com/src/assets/people/stephanie.jpg",
+      url: "https://optimismbh.com/stephanie-farmas",
+    },
   },
 
   // — Insights —
