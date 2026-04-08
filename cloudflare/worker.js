@@ -131,7 +131,7 @@ const PAGE_META = {
       description:
         "Jamie founded Optimism with a vision to build brands through cultural momentum. With decades of experience at top agencies, Jamie has led some of the most iconic campaigns in advertising history.",
       worksFor: { "@type": "Organization", name: "Optimism", url: "https://optimismbh.com" },
-      image: "https://optimismbh.com/src/assets/people/jamie.jpg",
+      image: "https://kiifubxvxfdlpmsrueob.supabase.co/storage/v1/object/public/photos/leadership/jamie.jpg",
       url: "https://optimismbh.com/jamie-barrett",
     },
   },
@@ -147,7 +147,7 @@ const PAGE_META = {
       description:
         "When Jamie moved to SF to work at Goodby Silverstein & Partners he moved into Matt's neighborhood and that's when the two of them became fast friends.",
       worksFor: { "@type": "Organization", name: "Optimism", url: "https://optimismbh.com" },
-      image: "https://optimismbh.com/src/assets/people/matt.jpg",
+      image: "https://kiifubxvxfdlpmsrueob.supabase.co/storage/v1/object/public/photos/leadership/matt.jpg",
       url: "https://optimismbh.com/matt-hofherr",
     },
   },
@@ -163,7 +163,7 @@ const PAGE_META = {
       description:
         "Krista is a seasoned professional in Client Services with 20 years of experience in advertising and marketing. Throughout her career, she has taken on leadership roles that enable her to inspire creativity, mentor diverse teams, manage budgets, lead pitches, and acquire new clients.",
       worksFor: { "@type": "Organization", name: "Optimism", url: "https://optimismbh.com" },
-      image: "https://optimismbh.com/src/assets/people/krista.jpeg",
+      image: "https://kiifubxvxfdlpmsrueob.supabase.co/storage/v1/object/public/photos/leadership/krista.jpeg",
       url: "https://optimismbh.com/krista-osol",
     },
   },
@@ -195,7 +195,7 @@ const PAGE_META = {
       description:
         "Conor drives the creative vision behind Optimism's award-winning campaigns. His work has been recognized at every major advertising award show and has helped define the voice of numerous iconic brands.",
       worksFor: { "@type": "Organization", name: "Optimism", url: "https://optimismbh.com" },
-      image: "https://optimismbh.com/src/assets/people/conor.jpg",
+      image: "https://kiifubxvxfdlpmsrueob.supabase.co/storage/v1/object/public/photos/leadership/conor.jpg",
       url: "https://optimismbh.com/conor-duignan",
     },
   },
@@ -210,7 +210,7 @@ const PAGE_META = {
       givenName: "Kyle",
       familyName: "Duford",
       url: "https://optimismbh.com/kyle-duford",
-      image: "https://kyleduford.com/kyle-headshot-2025.jpeg",
+      image: "https://kiifubxvxfdlpmsrueob.supabase.co/storage/v1/object/public/photos/leadership/kyle.png",
       description:
         "Kyle Duford is the author of 'The Brand Book,' 'Twice Found,' 'Optimism,' and 'Branding Without Permission.' He is also a partner at Optimism, an advertising agency in San Francisco.",
       jobTitle: ["Author", "Brand Strategist", "Partner"],
@@ -243,7 +243,7 @@ const PAGE_META = {
       description:
         "Charlotte leads production with precision and creative excellence. Her expertise spans film, digital, and experiential production.",
       worksFor: { "@type": "Organization", name: "Optimism", url: "https://optimismbh.com" },
-      image: "https://optimismbh.com/src/assets/people/charlotte.jpeg",
+      image: "https://kiifubxvxfdlpmsrueob.supabase.co/storage/v1/object/public/photos/leadership/charlotte.jpeg",
       url: "https://optimismbh.com/charlotte-dugoni",
     },
   },
@@ -259,7 +259,7 @@ const PAGE_META = {
       description:
         "Ted brings decades of experience to every production challenge. His calm leadership and deep industry relationships make the impossible possible.",
       worksFor: { "@type": "Organization", name: "Optimism", url: "https://optimismbh.com" },
-      image: "https://optimismbh.com/src/assets/people/ted.jpg",
+      image: "https://kiifubxvxfdlpmsrueob.supabase.co/storage/v1/object/public/photos/leadership/ted.jpg",
       url: "https://optimismbh.com/ted-bluey",
     },
   },
@@ -275,7 +275,7 @@ const PAGE_META = {
       description:
         "Brad uncovers insights that fuel breakthrough brand strategies. His research-driven approach reveals opportunities others miss.",
       worksFor: { "@type": "Organization", name: "Optimism", url: "https://optimismbh.com" },
-      image: "https://optimismbh.com/src/assets/people/brad.jpg",
+      image: "https://kiifubxvxfdlpmsrueob.supabase.co/storage/v1/object/public/photos/leadership/brad.jpg",
       url: "https://optimismbh.com/brad-kamal",
     },
   },
@@ -291,7 +291,7 @@ const PAGE_META = {
       description:
         "Kevin is an Ad Age Strategic Planner of the Year, shaping brand futures with innovative thinking and deep consumer understanding.",
       worksFor: { "@type": "Organization", name: "Optimism", url: "https://optimismbh.com" },
-      image: "https://optimismbh.com/src/assets/people/kevin.jpg",
+      image: "https://kiifubxvxfdlpmsrueob.supabase.co/storage/v1/object/public/photos/leadership/kevin.jpg",
       url: "https://optimismbh.com/kevin-albrecht",
     },
   },
@@ -307,7 +307,7 @@ const PAGE_META = {
       description:
         "Stephanie keeps Optimism running smoothly and efficiently. Her operational excellence enables the team to focus on what they do best: creating great work.",
       worksFor: { "@type": "Organization", name: "Optimism", url: "https://optimismbh.com" },
-      image: "https://optimismbh.com/src/assets/people/stephanie.jpg",
+      image: "https://kiifubxvxfdlpmsrueob.supabase.co/storage/v1/object/public/photos/leadership/stephanie.jpg",
       url: "https://optimismbh.com/stephanie-farmas",
     },
   },
