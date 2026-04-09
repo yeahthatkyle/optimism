@@ -200,7 +200,7 @@ const PAGE_META = {
     },
   },
   "/kyle-duford": {
-    title: "Kyle Duford | Author & Partner | Optimism",
+    title: "Kyle Duford | Author, Brander, Assoc. Partner | Optimism",
     description:
       "Kyle Duford is the author of 'The Brand Book,' 'Twice Found,' 'Optimism,' and 'Branding Without Permission.' He is also a partner at Optimism, an advertising agency in San Francisco.",
     jsonLd: {
