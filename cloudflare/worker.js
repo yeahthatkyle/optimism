@@ -16,7 +16,7 @@
 const MAIN_DOMAIN = "figma-to-coder.pages.dev";
 const SITE_URL = "https://optimismbh.com";
 const SITE_NAME = "Optimism";
-const DEFAULT_OG_IMAGE = `${SITE_URL}/og-image.jpg`;
+const DEFAULT_OG_IMAGE = "https://kiifubxvxfdlpmsrueob.supabase.co/storage/v1/object/public/photos/uploads/og-image.jpg";
 
 const SUBDOMAIN_MAP = {
   "crm.optimismbh.com": "/crm",
