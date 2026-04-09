@@ -1,0 +1,9 @@
+name = "barretthofherr-redirects"
+main = "barretthofherr-worker.js"
+compatibility_date = "2025-01-01"
+
+# Intercepts all traffic on barretthofherr.com and redirects to optimismbh.com
+routes = [
+  { pattern = "barretthofherr.com/*",     zone_name = "barretthofherr.com" },
+  { pattern = "www.barretthofherr.com/*", zone_name = "barretthofherr.com" },
+]
