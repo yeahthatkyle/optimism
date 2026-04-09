@@ -210,7 +210,7 @@ const PAGE_META = {
       givenName: "Kyle",
       familyName: "Duford",
       url: "https://optimismbh.com/kyle-duford",
-      image: "https://kiifubxvxfdlpmsrueob.supabase.co/storage/v1/object/public/photos/leadership/kyle.png",
+      image: "https://kiifubxvxfdlpmsrueob.supabase.co/storage/v1/object/public/photos/leadership/kyle-2.jpg",
       description:
         "Kyle Duford is the author of 'The Brand Book,' 'Twice Found,' 'Optimism,' and 'Branding Without Permission.' He is also a partner at Optimism, an advertising agency in San Francisco.",
       jobTitle: ["Author", "Brand Strategist", "Partner"],
@@ -243,7 +243,7 @@ const PAGE_META = {
       description:
         "Charlotte leads production with precision and creative excellence. Her expertise spans film, digital, and experiential production.",
       worksFor: { "@type": "Organization", name: "Optimism", url: "https://optimismbh.com" },
-      image: "https://kiifubxvxfdlpmsrueob.supabase.co/storage/v1/object/public/photos/leadership/charlotte.jpeg",
+      image: "https://kiifubxvxfdlpmsrueob.supabase.co/storage/v1/object/public/photos/leadership/charlotte.jpg",
       url: "https://optimismbh.com/charlotte-dugoni",
     },
   },
