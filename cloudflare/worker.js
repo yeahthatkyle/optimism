@@ -721,12 +721,8 @@ export default {
 
       const contentType = response.headers.get("content-type") || "";
       if (pathname === "/" && contentType.includes("text/html")) {
-        const html = await response.text();
-        const script = `<script>history.replaceState(null,'','${basePath}'+window.location.search+window.location.hash);</script>`;
-        const modified = html.replace("<head>", `<head>${script}`);
         const newHeaders = new Headers(response.headers);
-        newHeaders.delete("content-length");
-        return new Response(modified, {
+        return new Response(response.body, {
           status: response.status,
           statusText: response.statusText,
           headers: newHeaders,
