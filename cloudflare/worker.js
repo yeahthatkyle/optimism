@@ -482,58 +482,25 @@ const CLIENT_NAMES = {
 
 // ─── STATIC FILES ─────────────────────────────────────────────────────────────
 
-const ROBOTS_TXT = `User-agent: *
-Allow: /
+const ROBOTS_TXT = `# optimismbh.com robots.txt
+# Content Signals per EU Directive 2019/790:
+#   search = yes | ai-train = no | ai-input = no
 
-# Standard search engines
-User-agent: Googlebot
-Allow: /
-
-User-agent: Bingbot
-Allow: /
-
-User-agent: Slurp
-Allow: /
-
-User-agent: DuckDuckBot
-Allow: /
-
-User-agent: Applebot
-Allow: /
-
-# LLM-powered search/answering crawlers — allowed for indexing, not training
-# These power ChatGPT Search, Perplexity, Claude, and similar tools.
-User-agent: GPTBot
-Allow: /
-
-User-agent: ChatGPT-User
-Allow: /
-
-User-agent: PerplexityBot
-Allow: /
-
-User-agent: ClaudeBot
-Allow: /
-
-User-agent: anthropic-ai
-Allow: /
-
-User-agent: cohere-ai
-Allow: /
-
-User-agent: Bytespider
+# Allow all crawlers by default
+User-agent: *
 Allow: /
 
 # Training-only harvesters — disallowed
 User-agent: CCBot
 Disallow: /
 
-Sitemap: https://optimismbh.com/sitemap.xml
+User-agent: Amazonbot
+Disallow: /
 
-# Content Signals per EU Directive 2019/790
-# Content-Signal: search-indexing = yes
-# Content-Signal: ai-training = no
-# Content-Signal: ai-input = no
+User-agent: Applebot-Extended
+Disallow: /
+
+Sitemap: https://optimismbh.com/sitemap.xml
 `;
 
 const LLMS_TXT = `# Optimism
