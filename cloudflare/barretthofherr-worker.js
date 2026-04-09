@@ -23,13 +23,13 @@ const REDIRECTS = {
 
   // ── Old case-study slugs ─────────────────────────────────────────────────────
   // ⚠️  CONFIRM THESE 7 before deploying — new URL was a keyword, not a path:
-  "/case-study-2":   "/work/marvel/heroes-only",                        // "marvel"
-  "/case-study-5":   "/work/wwe-2k/suplex-city",                        // "suplex city"
-  "/case-study-6":   "/work/sutter-health",                             // "sutter"
-  "/case-study-7":   "/work/telosa/the-city-of-the-future",             // "telosa"
-  "/case-study-7-3": "/work/walmart/this-is-that-place",                // "walmart"
-  "/case-study-10":  "/work/special-olypics/do-something-special",      // "special olympics"
-  "/case-study-11":  "/work/habit-burger",                              // "habit"
+  "/case-study-2":   "/work/marvel/marvel-case-study",
+  "/case-study-5":   "/work/wwe-2k/suplex-city-case-study",
+  "/case-study-6":   "/work/sutter-health/sutter-health-case-study",
+  "/case-study-7":   "/work/telosa/telosa-case-study",
+  "/case-study-7-3": "/work/walmart/walmart-case-study",
+  "/case-study-10":  "/work/special-olypics/special-olympics-case-study",
+  "/case-study-11":  "/work/habit-burger/case-study",
   // ── (these two had full paths) ───────────────────────────────────────────────
   "/case-study-12":  "/work/8x8/8x8-case-study",
   "/case-study-7-4": "/work/bleacher-report/bleacher-report-case-study",
