@@ -27,7 +27,7 @@ const SUBDOMAIN_MAP = {
 
 const PAGE_META = {
   "/": {
-    title: "Optimism | Independent Creative Agency | San Francisco",
+    title: "Optimism BH | Independent Creative Agency | San Francisco",
     description:
       "Optimism is an independent creative advertising agency in San Francisco. We build brands that resonate, campaigns that perform, and ideas that last. Formerly Barrett Hofherr.",
     jsonLd: {
@@ -53,74 +53,74 @@ const PAGE_META = {
     },
   },
   "/about": {
-    title: "About | Optimism Creative Agency",
+    title: "About | Optimism BH Creative Agency",
     description:
       "Meet Optimism — an independent creative advertising agency founded on the belief that great work comes from optimistic thinking. Formerly Barrett Hofherr, reborn with a new name.",
   },
   "/work": {
-    title: "Our Work | Optimism Creative Agency",
+    title: "Our Work | Optimism BH Creative Agency",
     description:
       "Case studies and campaigns from Optimism. Work for Habit Burger Grill, Golden State Warriors, DoorDash, Walmart, Marvel, Chime, eBay, and more.",
   },
   "/capabilities": {
-    title: "Capabilities | Optimism Creative Agency",
+    title: "Capabilities | Optimism BH Creative Agency",
     description:
       "Full-service creative agency capabilities: brand strategy, advertising, integrated production, media planning & buying, design, and data analytics.",
   },
   "/insights": {
-    title: "Insights | Optimism Creative Agency",
+    title: "Insights | Optimism BH Creative Agency",
     description:
       "Thinking on brand strategy, advertising, and culture from the team at Optimism.",
   },
   "/people": {
-    title: "Our Team | Optimism Creative Agency",
+    title: "Our Team | Optimism BH Creative Agency",
     description:
       "Meet the team at Optimism — strategists, creatives, producers, and media experts building brands that last.",
   },
   "/terms": {
-    title: "Terms of Use | Optimism",
+    title: "Terms of Use | Optimism BH",
     description: "Terms of use for optimismbh.com.",
   },
   "/privacy": {
-    title: "Privacy Policy | Optimism",
+    title: "Privacy Policy | Optimism BH",
     description: "Privacy policy for optimismbh.com.",
   },
 
   // — Capabilities —
   "/capabilities/brand-strategy": {
-    title: "Brand Strategy | Optimism Creative Agency",
+    title: "Brand Strategy | Optimism BH Creative Agency",
     description:
       "We build brands with purpose and clarity. Optimism's brand strategy practice helps companies find their voice, define their positioning, and grow with conviction.",
   },
   "/capabilities/advertising": {
-    title: "Advertising | Optimism Creative Agency",
+    title: "Advertising | Optimism BH Creative Agency",
     description:
       "Campaigns that break through. Optimism creates advertising that earns attention and drives results — TV, digital, OOH, social, and beyond.",
   },
   "/capabilities/media-planning-buying": {
-    title: "Media Planning & Buying | Optimism Creative Agency",
+    title: "Media Planning & Buying | Optimism BH Creative Agency",
     description:
       "Smart media that amplifies great creative. Optimism plans and buys media across all channels to reach the right audiences at the right moment.",
   },
   "/capabilities/integrated-production": {
-    title: "Integrated Production | Optimism Creative Agency",
+    title: "Integrated Production | Optimism BH Creative Agency",
     description:
       "From concept to delivery. Optimism's production team brings campaigns to life across video, photo, digital, and experiential formats.",
   },
   "/capabilities/design": {
-    title: "Design | Optimism Creative Agency",
+    title: "Design | Optimism BH Creative Agency",
     description:
       "Visual storytelling at every scale. Optimism's design practice spans brand identity, campaigns, digital experiences, and environmental design.",
   },
   "/capabilities/data-analytics": {
-    title: "Data & Analytics | Optimism Creative Agency",
+    title: "Data & Analytics | Optimism BH Creative Agency",
     description:
       "Insights that fuel better work. Optimism uses data and analytics to inform strategy, optimize campaigns, and measure what matters.",
   },
 
   // — Team —
   "/jamie-barrett": {
-    title: "Jamie Barrett | Chief Creative Officer | Optimism",
+    title: "Jamie Barrett | Chief Creative Officer | Optimism BH",
     description:
       "Jamie founded Optimism with a vision to build brands through cultural momentum. With decades of experience at top agencies, Jamie has led some of the most iconic campaigns in advertising history.",
     jsonLd: {
@@ -136,7 +136,7 @@ const PAGE_META = {
     },
   },
   "/matt-hofherr": {
-    title: "Matt Hofherr | Partner, Chief Strategy Officer | Optimism",
+    title: "Matt Hofherr | Partner, Chief Strategy Officer | Optimism BH",
     description:
       "When Jamie moved to SF to work at Goodby Silverstein & Partners he moved into Matt's neighborhood and that's when the two of them became fast friends.",
     jsonLd: {
@@ -152,7 +152,7 @@ const PAGE_META = {
     },
   },
   "/krista-osol": {
-    title: "Krista Osol | Director of Client Services | Optimism",
+    title: "Krista Osol | Director of Client Services | Optimism BH",
     description:
       "Krista is a seasoned professional in Client Services with 20 years of experience in advertising and marketing, inspiring creativity and mentoring diverse teams.",
     jsonLd: {
@@ -168,7 +168,7 @@ const PAGE_META = {
     },
   },
   "/todd-eisner": {
-    title: "Todd Eisner | Partner, Executive Creative Director | Optimism",
+    title: "Todd Eisner | Partner, Executive Creative Director | Optimism BH",
     description:
       "Todd oversees operations and ensures seamless delivery across all projects. His strategic leadership has helped scale Optimism while maintaining the creative excellence that defines the agency.",
     jsonLd: {
@@ -184,7 +184,7 @@ const PAGE_META = {
     },
   },
   "/conor-duignan": {
-    title: "Conor Duignan | Partner, Head of Production | Optimism",
+    title: "Conor Duignan | Partner, Head of Production | Optimism BH",
     description:
       "Conor drives the creative vision behind Optimism's award-winning campaigns. His work has been recognized at every major advertising award show and has helped define the voice of numerous iconic brands.",
     jsonLd: {
@@ -200,7 +200,7 @@ const PAGE_META = {
     },
   },
   "/kyle-duford": {
-    title: "Kyle Duford | Author, Brander, Assoc. Partner | Optimism",
+    title: "Kyle Duford | Author, Brander, Assoc. Partner | Optimism BH",
     description:
       "Kyle Duford is the author of 'The Brand Book,' 'Twice Found,' 'Optimism,' and 'Branding Without Permission.' He is also a partner at Optimism, an advertising agency in San Francisco.",
     jsonLd: {
@@ -232,7 +232,7 @@ const PAGE_META = {
     },
   },
   "/charlotte-dugoni": {
-    title: "Charlotte Dugoni | Associate Partner, Executive Producer | Optimism",
+    title: "Charlotte Dugoni | Associate Partner, Executive Producer | Optimism BH",
     description:
       "Charlotte leads production with precision and creative excellence. Her expertise spans film, digital, and experiential production.",
     jsonLd: {
@@ -248,7 +248,7 @@ const PAGE_META = {
     },
   },
   "/ted-bluey": {
-    title: "Ted Bluey | Associate Partner, Head of Design | Optimism",
+    title: "Ted Bluey | Associate Partner, Head of Design | Optimism BH",
     description:
       "Ted brings decades of experience to every production challenge. His calm leadership and deep industry relationships make the impossible possible.",
     jsonLd: {
@@ -264,7 +264,7 @@ const PAGE_META = {
     },
   },
   "/brad-kamal": {
-    title: "Brad Kayal | Director of Strategy | Optimism",
+    title: "Brad Kayal | Director of Strategy | Optimism BH",
     description:
       "Brad uncovers insights that fuel breakthrough brand strategies. His research-driven approach reveals opportunities others miss.",
     jsonLd: {
@@ -280,7 +280,7 @@ const PAGE_META = {
     },
   },
   "/kevin-albrecht": {
-    title: "Kevin Albrecht | Ad Age Strategic Planner of the Year | Optimism",
+    title: "Kevin Albrecht | Ad Age Strategic Planner of the Year | Optimism BH",
     description:
       "Kevin is an Ad Age Strategic Planner of the Year, shaping brand futures with innovative thinking and deep consumer understanding.",
     jsonLd: {
@@ -296,7 +296,7 @@ const PAGE_META = {
     },
   },
   "/stephanie-farmas": {
-    title: "Stephanie Farmas | Marketing Director | Optimism",
+    title: "Stephanie Farmas | Marketing Director | Optimism BH",
     description:
       "Stephanie keeps Optimism running smoothly and efficiently. Her operational excellence enables the team to focus on what they do best: creating great work.",
     jsonLd: {
@@ -314,49 +314,49 @@ const PAGE_META = {
 
   // — Insights —
   "/insights/barrett-hofherr-is-now-optimism": {
-    title: "Barrett Hofherr Is Now Optimism | Optimism Insights",
+    title: "Barrett Hofherr Is Now Optimism BH | Optimism BH Insights",
     description:
       "Barrett Hofherr, the San Francisco independent creative agency, has rebranded as Optimism. A new name, the same commitment to ideas that last.",
     ogType: "article",
   },
   "/insights/relevance-vs-resonance": {
-    title: "Relevance vs. Resonance | Optimism Insights",
+    title: "Relevance vs. Resonance | Optimism BH Insights",
     description:
       "What's the difference between a brand that's relevant and one that resonates? Optimism explores the distinction that separates good brands from great ones.",
     ogType: "article",
   },
   "/insights/8-8-flips-the-script-on-b2b-marketing-with-ai-powered-hero-campaign": {
-    title: "8x8 Flips the Script on B2B Marketing with AI | Optimism",
+    title: "8x8 Flips the Script on B2B Marketing with AI | Optimism BH",
     description:
       "How Optimism and 8x8 used AI-powered creative to relaunch a B2B brand and cut through the noise in a crowded category.",
     ogType: "article",
   },
   "/insights/california-s-burger-wars-heat-up-as-habit-burger-grill-trolls-in-n-out-with-new-billboard": {
-    title: "California's Burger Wars: Habit Burger Trolls In-N-Out | Optimism",
+    title: "California's Burger Wars: Habit Burger Trolls In-N-Out | Optimism BH",
     description:
       "Optimism's work for Habit Burger Grill heats up California's burger wars with a cheeky billboard that took direct aim at In-N-Out.",
     ogType: "article",
   },
   "/insights/the-era-of-brand-awareness-is-over": {
-    title: "The Era of Brand Awareness Is Over | Optimism Insights",
+    title: "The Era of Brand Awareness Is Over | Optimism BH Insights",
     description:
       "Brand awareness alone isn't enough anymore. Optimism makes the case for a new metric: brand conviction.",
     ogType: "article",
   },
   "/insights/albrecht-named-strategist-of-the-year": {
-    title: "Kevin Albrecht Named Strategist of the Year | Optimism",
+    title: "Kevin Albrecht Named Strategist of the Year | Optimism BH",
     description:
       "Optimism strategist Kevin Albrecht has been named Strategist of the Year, recognized for his work building brands that resonate.",
     ogType: "article",
   },
   "/insights/barrett-hofherr-names-kyle-duford-associate-partner-and-director-of-client-strategy-services": {
-    title: "Kyle Duford Named Associate Partner at Optimism",
+    title: "Kyle Duford Named Associate Partner at Optimism BH",
     description:
       "Barrett Hofherr (now Optimism) has named Kyle Duford Associate Partner and Director of Client Strategy Services.",
     ogType: "article",
   },
   "/insights/it-s-time-for-the-triumphant-return-of-brand": {
-    title: "The Triumphant Return of Brand | Optimism Insights",
+    title: "The Triumphant Return of Brand | Optimism BH Insights",
     description:
       "Performance marketing has dominated for a decade. Optimism argues it's time to bring brand back — and why the best companies never let it go.",
     ogType: "article",
@@ -364,57 +364,57 @@ const PAGE_META = {
 
   // — Featured work —
   "/work/habit-burger/fresh-like-that": {
-    title: "Habit Burger: Fresh Like That | Optimism",
+    title: "Habit Burger: Fresh Like That | Optimism BH",
     description:
       "Fresh Like That — Optimism's campaign for Habit Burger Grill celebrating fresh, never-frozen ingredients.",
   },
   "/work/habit-burger/better-by-char": {
-    title: "Habit Burger: Better by Char | Optimism",
+    title: "Habit Burger: Better by Char | Optimism BH",
     description:
       "Better by Char — Optimism's charbroiler-focused campaign for Habit Burger Grill.",
   },
   "/work/habit-burger/winning-is-a-habit": {
-    title: "Habit Burger: Winning Is a Habit | Optimism",
+    title: "Habit Burger: Winning Is a Habit | Optimism BH",
     description:
       "Winning Is a Habit — campaign by Optimism for Habit Burger Grill.",
   },
   "/work/golden-state-warriors/dub-nation": {
-    title: "Golden State Warriors: Dub Nation | Optimism",
+    title: "Golden State Warriors: Dub Nation | Optimism BH",
     description:
       "Dub Nation — Optimism's work for the Golden State Warriors celebrating the Bay Area fanbase.",
   },
   "/work/chime/happy-chime": {
-    title: "Chime: Happy Chime | Optimism",
+    title: "Chime: Happy Chime | Optimism BH",
     description:
       "Happy Chime — Optimism's brand campaign for Chime, the fintech challenger bank.",
   },
   "/work/walmart/this-is-that-place": {
-    title: "Walmart: This Is That Place | Optimism",
+    title: "Walmart: This Is That Place | Optimism BH",
     description:
       "This Is That Place — Optimism's campaign for Walmart celebrating the store as a community hub.",
   },
   "/work/marvel/marvel-case-study": {
-    title: "Marvel Case Study | Optimism",
+    title: "Marvel Case Study | Optimism BH",
     description:
       "Optimism's work with Marvel — creative advertising that brings the Marvel universe to life.",
   },
   "/work/doordash/cash-after-every-dash": {
-    title: "DoorDash: Cash After Every Dash | Optimism",
+    title: "DoorDash: Cash After Every Dash | Optimism BH",
     description:
       "Cash After Every Dash — Optimism's campaign for DoorDash promoting instant pay for dashers.",
   },
   "/work/ebay/magic-box": {
-    title: "eBay: Magic Box | Optimism",
+    title: "eBay: Magic Box | Optimism BH",
     description:
       "Magic Box — Optimism's campaign capturing the joy and surprise of finding treasure on eBay.",
   },
   "/work/meyer-sound/panther": {
-    title: "Meyer Sound: Panther | Optimism",
+    title: "Meyer Sound: Panther | Optimism BH",
     description:
       "Panther — Optimism's launch campaign for Meyer Sound's flagship large-scale speaker system.",
   },
   "/work/sutter-health/sutter-never-stops": {
-    title: "Sutter Health: Sutter Never Stops | Optimism",
+    title: "Sutter Health: Sutter Never Stops | Optimism BH",
     description:
       "Sutter Never Stops — Optimism's brand campaign for Sutter Health showcasing round-the-clock care.",
   },
@@ -592,7 +592,7 @@ function getMetaForPath(pathname) {
     const clientName = CLIENT_NAMES[parts[1]] || slugToTitle(parts[1]);
     const campaignTitle = slugToTitle(parts[2]);
     return {
-      title: `${clientName}: ${campaignTitle} | Optimism`,
+      title: `${clientName}: ${campaignTitle} | Optimism BH`,
       description: `${campaignTitle} — a campaign by Optimism for ${clientName}.`,
       ogType: "article",
     };
@@ -602,7 +602,7 @@ function getMetaForPath(pathname) {
   if (parts.length === 2 && parts[0] === "work") {
     const clientName = CLIENT_NAMES[parts[1]] || slugToTitle(parts[1]);
     return {
-      title: `${clientName} | Work | Optimism`,
+      title: `${clientName} | Work | Optimism BH`,
       description: `Optimism's creative campaigns and brand work for ${clientName}.`,
     };
   }
@@ -611,7 +611,7 @@ function getMetaForPath(pathname) {
   if (parts.length === 2 && parts[0] === "insights") {
     const articleTitle = slugToTitle(parts[1]);
     return {
-      title: `${articleTitle} | Optimism Insights`,
+      title: `${articleTitle} | Optimism BH Insights`,
       description: `${articleTitle} — thinking on brand and advertising from the team at Optimism.`,
       ogType: "article",
     };
@@ -625,13 +625,13 @@ function getMetaForPath(pathname) {
   if (parts.length === 1 && !NON_PERSON_PATHS.has(parts[0])) {
     const personName = slugToTitle(parts[0]);
     return {
-      title: `${personName} | Optimism`,
+      title: `${personName} | Optimism BH`,
       description: `${personName} is part of the team at Optimism, the San Francisco independent creative advertising agency.`,
     };
   }
 
   return {
-    title: "Optimism | Independent Creative Agency | San Francisco",
+    title: "Optimism BH | Independent Creative Agency | San Francisco",
     description:
       "Optimism is an independent creative advertising agency in San Francisco. Campaigns, brand strategy, and ideas that last.",
   };
