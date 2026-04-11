@@ -546,6 +546,95 @@ const CLIENT_NAMES = {
   zappos: "Zappos",
 };
 
+// ─── WORK PAGE SCHEMA ─────────────────────────────────────────────────────────
+// Keyed by path. n=name, h=headline, d=description, img=thumbnail filename, kw=keywords
+// Image base: https://kiifubxvxfdlpmsrueob.supabase.co/storage/v1/object/public/photos/work/thumbnails/
+
+const IMG_BASE = "https://kiifubxvxfdlpmsrueob.supabase.co/storage/v1/object/public/photos/work/thumbnails/";
+
+const WORK_SCHEMA = {
+  // ── Batch 1 (A–B) ────────────────────────────────────────────────────────────
+  "/work/automobile-reel": {
+    n: "Automobile Reel", img: "1771021555253-gnn1vhv.jpg",
+  },
+  "/work/extra-space-storage/for-whatever-life-has-in-storage": {
+    n: "For Whatever Life has in Storage", h: "Space for everything life throws at you.",
+    kw: "Advertising,Video,Broadcast & Streaming Video,Social",
+  },
+  "/work/8x8/8x8-case-study": {
+    n: "8x8 Case Study", h: "One Super Bowl-sized commercial for every customer that actually features that customer.",
+    img: "1775627119957-akxps.jpg",
+  },
+  "/work/8x8/brand-relaunch": {
+    n: "Brand Relaunch", h: "8X8 is a business communications platform that makes the extremely complicated, extremely simple.",
+    img: "1774294663279-luthbt.webp",
+  },
+  "/work/8x8/the-power-of-you": {
+    n: "The Power of You", h: "Every customer becomes the star of their own commercial.",
+    d: "92% of B2B customers have a shortlist of preferred vendors before they even start the buying process.",
+  },
+  "/work/1000-days/babies-for-babies": {
+    n: "Babies For Babies", h: "We were asked to create a viral campaign for an important healthcare initiative.",
+    img: "1774287720966-n7ff1nj.webp",
+  },
+  "/work/ariat/mountain": {
+    n: "Mountain", h: "Life is rarely a level playing field.",
+    img: "1775580447074-yoa8k.webp",
+    kw: "Advertising,Integrated Production,Video,Broadcast & Streaming Video,Digital Video,Out-of-Home,Social,Paid Social,Email,In-Store Display",
+  },
+  "/work/ars-x-machina/welcome-to-the-media-revolution": {
+    n: "Welcome to the Media Revolution", h: "Ars X Machina is a female-founded media agency.",
+    img: "1774275345626-oiyrp7.webp",
+    kw: "Branding & Identity,Naming,Re-Branding,Identity Design,Logo Design,Logo Lockup,Brand Tagline,Branded Design Elements",
+  },
+  "/work/asics/asics-case-study": {
+    n: "Asics Case Study", h: "The Gel Cumulus 23 was one of the biggest global shoe launches in ASICS history.",
+    d: "We conceived and executed the campaign across three continents, from video to in-store and everything in between.",
+  },
+  "/work/asics/metaride": {
+    n: "MetaRide", h: "The MetaRide is the most technically advanced running shoe in the history of ASICS.",
+    img: "1775628644881-z1j2wt.jpg",
+    kw: "Brand Strategy,Digital,Video,Digital Video,Social,Out-of-Home,Print",
+  },
+  "/work/asics/sound-mind-sound-body": {
+    n: "Sound Mind, Sound Body", h: "Running does more than condition your body. It clears your mind.",
+    d: "Running does more than condition your body. It clears your mind. Gives you energy. And takes you to a better place than where you started.",
+  },
+  "/work/attentive/attentive-case-study": {
+    n: "Attentive Case Study", h: "Text marketing is dramatically more effective than print, digital, and out-of-home. To effectively communicate that message, we used print, digital, and out-of-home.",
+  },
+  "/work/attentive/text-marketing": {
+    n: "Text Marketing", h: "Text marketing is dramatically more effective than print, digital, and out-of-home.",
+    img: "1774290595651-zml6xv.webp",
+    kw: "Brand Strategy,Digital,Print,Out-of-Home",
+  },
+  "/work/bachans/look-for-the-octopus": {
+    n: "Look for the Octopus", h: "Optimism brings Bachan's octopus logo to life.",
+    d: "How do you launch Bachan's first-ever brand campaign? With a giant red octopus, of course.",
+  },
+  "/work/bleacher-report/bleacher-report-case-study": {
+    n: "Bleacher Report Case Study", h: "For sports news and content, Bleacher Report was the leading challenger to ESPN. But unaided awareness was low — under 10 percent.",
+  },
+  "/work/bleacher-report/sports-alphabet": {
+    n: "Sports Alphabet", h: "Bleacher Report defined from A to Z.",
+    img: "1774293968052-hhj7p.webp", kw: "Video,Social,Digital",
+  },
+  "/work/bolla/bolla-sorte": {
+    n: "Bolla Sorte", h: "How do you create and produce a multi-media launch campaign for a new sports betting app in Brazil in just three weeks?",
+    img: "1774272447412-v9dorb.webp",
+  },
+  "/work/bonafide/power-information-precision": {
+    n: "Power Information Precision", img: "1774289254674-zu9svr.webp",
+  },
+  "/work/optimism/agency-reel": {
+    n: "Agency Reel", h: "You need the work to be incredibly great and work incredibly well.",
+    img: "1775627615437-7t605i.png",
+  },
+  "/work/optimism/b2b-reel": {
+    n: "B2B Reel", img: "1775756756843-b3lf69.jpg",
+  },
+};
+
 // ─── STATIC FILES ─────────────────────────────────────────────────────────────
 
 const ROBOTS_TXT = `# optimismbh.com robots.txt
