@@ -717,6 +717,91 @@ const WORK_SCHEMA = {
     n: "Ridiculously Easy", h: "Freshworks makes software that's ridiculously easy to use.",
     img: "1774276463221-0259n2f.webp", kw: "Video",
   },
+
+  // ── Batch 3 (G–O) ────────────────────────────────────────────────────────────
+  "/work/golden-state-warriors/dub-nation": {
+    n: "Dub Nation", h: "18,064 not-so-quiet fans pack the Chase Center every night.",
+    img: "1774126868766-v79wg.webp",
+  },
+  "/work/golfnow/dinosaur": {
+    n: "Dinosaur", h: "After decades of booking tee times over the phone, many golfers behaved like dinosaurs.",
+    img: "1774126115901-7kkr1.webp", kw: "Video,Broadcast & Streaming Video,Digital Video",
+  },
+  "/work/gong/gong-ho": {
+    n: "Gong Ho", h: "Let's make some noise on the Super Bowl.",
+    img: "1774290467331-8xqygc.webp", kw: "Video,Broadcast & Streaming Video,Digital Video,Social",
+  },
+  "/work/grass-roots-farmers-co-op/meat-with-intention": {
+    n: "Meat with Intention", h: "Here's how we helped Grass Roots Farmers Co-op look as good as their meat tastes.",
+    img: "1774281739394-kunusl.webp",
+    kw: "Branding & Identity,Identity Design,Branded Design Elements,Brand Strategy,Communication Strategy",
+  },
+  "/work/habit-burger/americas-number-1-burger": {
+    n: "America's #1 Burger", h: "Habit delivers burgers by air, land, and sea.",
+    img: "1775566523752-339imk.jpg",
+    kw: "Advertising,Performance Marketing,Out-of-Home,Print,Paid Social,Activation Stunt,Logo Design,Merchandise,Experiential / Events",
+  },
+  "/work/habit-burger/better-by-char": {
+    n: "Better By Char", h: "It takes the ultimate sacrifice to make the ultimate burger.",
+    img: "1773493624836-ws5nqc.webp", kw: "Video,Broadcast & Streaming Video,Digital Video,Social",
+  },
+  "/work/habit-burger/case-study": {
+    n: "Habit Burger Case Study", h: "What's the #1 burger in the country? It's Habit Burger & Grill.",
+    img: "1774303467940-whwoac.webp",
+  },
+  "/work/habit-burger/everyone-deserves-the-1": {
+    n: "Everyone Deserves the #1", h: "Habit delivers burgers by air, land, and sea.",
+    img: "1770662715361-d308im.webp",
+  },
+  "/work/habit-burger/winning-is-a-habit": {
+    n: "Winning is a Habit", h: "Habit won #1 Burger, #1 Side, and #1 Fast Casual Restaurant in USA Today's 2026 10 Best polls.",
+    img: "1774270960715-jwye1j.webp", kw: "Social,Paid Social,Organic Social,Out-of-Home,Digital Video",
+  },
+  "/work/hoteltonight/give-your-house-a-break": {
+    n: "Give Your House A Break", h: "We sympathized with houses stuck with their people.",
+    img: "1774291204573-n5gkn.webp", kw: "Video,Social,Digital",
+  },
+  "/work/lifestraw/make-an-impact": {
+    n: "Make An Impact", h: "LifeStraw's mission to bring safe drinking water to the whole entire world.",
+    img: "1774275126577-84pwh.webp", kw: "Video",
+  },
+  "/work/made-in-a-free-world/call-and-response": {
+    n: "Call and Response", h: "For the 150th anniversary of the Emancipation Proclamation, we reminded the world that slavery still very much exists.",
+    img: "1774273246859-dtza1a.webp", kw: "Video",
+  },
+  "/work/marvel/marvel-case-study": {
+    n: "Marvel Case Study", img: "1775772107076-oki2t.jpg",
+  },
+  "/work/meta-prosper/american": {
+    n: "American", h: "May is AAPI Heritage Month. Every day is the right time to combat Asian American hate.",
+    img: "1774288555373-phfvc.webp", kw: "Video,Social",
+  },
+  "/work/meyer-sound/constellation": {
+    n: "Constellation", h: "Meyer Sound gives life to spectacular venues around the world.",
+    img: "1774294474070-l3esiv.webp",
+  },
+  "/work/meyer-sound/hear-it-right": {
+    n: "Hear It Right", h: "Meyer Sound uses curvilinear array technology to make the world's best speakers.",
+    img: "1774126513168-4yi39h.webp",
+  },
+  "/work/meyer-sound/panther": {
+    n: "Panther", h: "How do you help Meyer Sound launch their game-changing speaker system?",
+    img: "1774275902864-8olfx.webp",
+    kw: "Communication Strategy,Video,Print,Digital,Social,Experiential / Events",
+  },
+  "/work/mixt/the-way-to-salad": {
+    n: "The Way to Salad", h: "MIXT wanted a brand identity as fresh as the salads they sell.",
+    img: "1774277280752-0zofdz.webp",
+    kw: "Branding & Identity,Identity Design,Branded Design Elements,Out-of-Home,Communication Strategy",
+  },
+  "/work/monster-hunter-now/hunt-anywhere": {
+    n: "Monster Hunter Now", h: "No matter what you were doing then, just tap the app and become a Monster Hunter Now.",
+    img: "1775625485365-zuxkbd.jpg", kw: "Advertising,Performance Marketing",
+  },
+  "/work/omaha-steaks/thanks-dad": {
+    n: "Thanks Dad", h: "We knew Dads loved steak. And we knew ties were an extremely lame gift.",
+    img: "1774126754362-s3pdm.webp",
+  },
 };
 
 // ─── STATIC FILES ─────────────────────────────────────────────────────────────
