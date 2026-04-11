@@ -802,6 +802,88 @@ const WORK_SCHEMA = {
     n: "Thanks Dad", h: "We knew Dads loved steak. And we knew ties were an extremely lame gift.",
     img: "1774126754362-s3pdm.webp",
   },
+
+  // ── Batch 4 (O reels–W) ───────────────────────────────────────────────────────
+  "/work/optimism/food-bev-reel": {
+    n: "Food & Bev Reel", img: "1771021282030-8qozb8.webp",
+  },
+  "/work/optimism/gaming-reel": {
+    n: "Gaming Reel", img: "1775756577915-jgor8f.jpg",
+  },
+  "/work/optimism/retail-reel": {
+    n: "Retail Reel", img: "1775756885623-mw9d4m.jpg",
+  },
+  "/work/optimism/sports-reel": {
+    n: "Sports Reel", img: "1771019981370-uh5swk.webp",
+  },
+  "/work/penny-golf/golf-is-hard-swing-easy": {
+    n: "Golf is hard. Swing easy.", h: "Penny Golf is a women's golf wear brand that lives by the ideal: swing easy.",
+    img: "1774295338608-fnn38q.webp",
+    kw: "Brand Strategy,Branding & Identity,Re-Branding,Identity Design,Branded Design Elements,Communication Strategy",
+  },
+  "/work/pipette/whats-this": {
+    n: "What's This?", h: "Parents will never have to question the clean, non-toxic products from Pipette.",
+    img: "1774288250777-o5q42.webp", kw: "Brand Strategy,Video,Digital,Social",
+  },
+  "/work/redbubble/gift-the-very-thing": {
+    n: "Gift The Very Thing", h: "Redbubble has an incredible variety of unique, wildly creative gifts.",
+    img: "1774288111450-48n4dk.webp", kw: "Video,Social,Digital",
+  },
+  "/work/redwood/just-redwood": {
+    n: "Just Redwood", h: "Redwood is beautiful. To create desire for redwood, you simply have to let people look at it.",
+    img: "1774286976874-sz5omp.webp",
+  },
+  "/work/rubios/rubios-case-study": {
+    n: "Rubio's Case Study", h: "Rubio's was famous for its Original Fish Taco.",
+    img: "1775632911742-sx5qcr.jpg",
+  },
+  "/work/rubios/to-the-ocean": {
+    n: "To the Ocean", h: "Rubio's was famous for its Original Fish Taco.",
+    img: "1774271485917-qvmvr.webp", kw: "Video",
+  },
+  "/work/special-olypics/do-something-special": {
+    n: "Do Something Special", h: "Special isn't what we are. It's what we do.",
+    img: "1770316025101-rou1mo.webp",
+    kw: "Video,Social,Out-of-Home,Digital,Website,Print,Content",
+  },
+  "/work/stand-up-2-cancer/not-alone": {
+    n: "Not Alone", h: "Someday soon, the world will defeat cancer.",
+    img: "1774274981757-efbi8j.webp", kw: "Video",
+  },
+  "/work/sutter-health/anthem": {
+    n: "Anthem", h: "For the second installment of the Sutter Health A Thousand Things campaign.",
+    img: "1775634749085-bl9tla.jpg",
+  },
+  "/work/sutter-health/mask": {
+    n: "Mask", h: "One-third of Americans have experienced anxiety or depression since the pandemic began. Sutter Health is committed to changing that.",
+    img: "1774284722490-i2zsie.webp", kw: "Video,Digital Video",
+  },
+  "/work/sutter-health/never-ending": {
+    n: "Never-Ending", h: "There are a thousand things that separate Sutter Health from the competition.",
+    img: "1774291331796-kxholh.webp",
+    kw: "Video,Print,Communication Strategy,Brand Strategy,Radio,Social,Out-of-Home,Experiential / Events",
+  },
+  "/work/sutter-health/sutter-never-stops": {
+    n: "Sutter Never Stops", h: "Listening never stops. 12,000 doctors never stop.",
+    img: "1774296399246-6l55w.webp",
+    kw: "Branding & Identity,Branded Design Elements,Communication Strategy,Brand Strategy,Video,Print,Out-of-Home,Social,Digital",
+  },
+  "/work/telosa/the-city-of-the-future": {
+    n: "The City of the Future", h: "Optimism was asked to reimagine the very way humans coexist.",
+    img: "1774274586217-e0094j.webp", kw: "Naming,Identity Design,Branding & Identity",
+  },
+  "/work/toto/water-for-your-whatever": {
+    n: "Water For Your Whatever", h: "Our client Toto asked us to convince Americans to stop using toilet paper.",
+    img: "1774375724863-b33zxd.webp",
+  },
+  "/work/world-market/designed-for-summer": {
+    n: "Designed For Summer", h: "Pools, popsicles, sea shells. Inspiration for Cost Plus World Market furniture design.",
+    img: "1774279082482-w1w80r.webp", kw: "Out-of-Home",
+  },
+  "/work/world-market/gift-thoughtfully": {
+    n: "Gift Thoughtfully", h: "Hot sauce! Garden gnomes! Festive pillows! The list of thoughtful gift items at World Market never ends.",
+    img: "1775628187012-icq4v.jpg",
+  },
 };
 
 // ─── STATIC FILES ─────────────────────────────────────────────────────────────
