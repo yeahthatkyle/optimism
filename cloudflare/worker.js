@@ -633,6 +633,90 @@ const WORK_SCHEMA = {
   "/work/optimism/b2b-reel": {
     n: "B2B Reel", img: "1775756756843-b3lf69.jpg",
   },
+
+  // ── Batch 2 (C–F) ────────────────────────────────────────────────────────────
+  "/work/california-coastal-commission/you-are-bigger-than-you-think": {
+    n: "You Are Bigger Than You Think", h: "The facts about marine debris are astonishing. But you aren't small.",
+    img: "1774291989945-d3tuc.webp",
+    kw: "Social,Paid Social,Organic Social,Print,Identity Design,Communication Strategy",
+  },
+  "/work/california-drought-prevention/drop-a-brick": {
+    n: "Drop A Brick", h: "California faced its worst drought in history. Our solution? Make a product that saves water every time you flush.",
+    img: "1774281491804-52mn2.webp", kw: "Video,Digital Video",
+  },
+  "/work/campaign-monitor/ooh": {
+    n: "OOH", h: "Campaign Monitor creates emails that people can't ignore.",
+    img: "1774276048853-a5mq7.webp", kw: "Out-of-Home",
+  },
+  "/work/cbs-sports-hq/thats-good-sports": {
+    n: "That's Good Sports", h: "CBS Sports HQ is the most tingly, full-bodied sports coverage you can find.",
+    img: "1774290863704-um9lk4.webp",
+  },
+  "/work/childrens-defense-fund/the-pumpkin-and-the-pantsuit": {
+    n: "The Pumpkin and The Pantsuit", h: "After the results were in on Election Night 2016, CNN analyst Van Jones asked the question, How do we explain this to our kids?",
+    img: "1774284872934-iv50zl.webp",
+  },
+  "/work/chime/better-banking": {
+    n: "Better Banking", h: "Better banking for everyone.",
+    img: "1775629929106-a1mqf.jpg",
+  },
+  "/work/chime/chime-case-study": {
+    n: "Chime Case Study", h: "Chime is the leading mobile banking service with more than 5 million customers.",
+    img: "1775635694449-kc80z.jpg",
+  },
+  "/work/chime/chime-feels": {
+    n: "Chime Feels", h: "When your money's good, you feel good. And no one makes your money good-er than Chime.",
+    img: "1774291805029-nxzk8.webp", kw: "Video,Digital,Social",
+  },
+  "/work/chime/financial-literacy": {
+    n: "Financial Literacy", h: "21 Savage is passionate about financial literacy.",
+    img: "1775629861359-u41x7.jpg",
+  },
+  "/work/chime/happy-chime": {
+    n: "Happy Chime", h: "Puppies. Ice cream. Rainbows. The Chime mobile banking app.",
+    img: "1774287525844-oknh1.webp", kw: "Video,Social,Digital",
+  },
+  "/work/coachart/ai-is-amazing": {
+    n: "AI is Amazing", h: "CoachArt helps chronically ill kids live fuller lives every day.",
+    img: "1774271381646-29ihdh.webp", kw: "Digital,Video",
+  },
+  "/work/coachart/erick": {
+    n: "Erick", h: "CoachArt brings joy to chronically ill kids.",
+    img: "1774288387858-ddqmu9.webp", kw: "Video,Digital",
+  },
+  "/work/coupa/behold-the-power-of-spend": {
+    n: "Behold The Power Of Spend", h: "Take a complex and relatively unknown B2B brand, and introduce the world to both.",
+    img: "1774287235537-2btwst.webp",
+  },
+  "/work/credit-karma/dads": {
+    n: "Dads", h: "Staying on top of your credit score makes you feel really good.",
+    img: "1775633596386-rsvew8.jpg",
+  },
+  "/work/daily-mvp/mvp": {
+    n: "MVP", h: "How does a startup compete in the crowded fantasy sports marketplace?",
+    img: "1775625134982-hbtdla.jpg",
+  },
+  "/work/doordash/cash-after-every-dash": {
+    n: "Cash After Every Dash", h: "Cash After Every Dash",
+    img: "1770950182322-4m5opp.webp", kw: "Re-Branding,Naming,Identity Design,Packaging",
+  },
+  "/work/dxl/man-up-for-your-man": {
+    n: "Man Up For Your Man", h: "Manning up with Nicole Dubois",
+    img: "1773493469778-a9eawc.webp", kw: "Social,Influencer Partnerships",
+  },
+  "/work/dxl/where-what-you-want": {
+    n: "Where What You Want", h: "For Big + Tall men, the fact that someone has clothes that fit them is, well, huge news.",
+    img: "1773492426424-5ezjr.webp",
+    kw: "Broadcast & Streaming Video,Paid Social,Email,Out-of-Home,Radio,Digital",
+  },
+  "/work/ebay/magic-box": {
+    n: "Magic Box", h: "You would need a magic box to showcase the endless amount of products on eBay Refurbished.",
+    img: "1774278538187-gsxxfa.webp", kw: "Video,Digital,Packaging,Website",
+  },
+  "/work/freshworks/ridiculously-easy": {
+    n: "Ridiculously Easy", h: "Freshworks makes software that's ridiculously easy to use.",
+    img: "1774276463221-0259n2f.webp", kw: "Video",
+  },
 };
 
 // ─── STATIC FILES ─────────────────────────────────────────────────────────────
