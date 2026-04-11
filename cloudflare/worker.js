@@ -56,26 +56,92 @@ const PAGE_META = {
     title: "About | Optimism BH Creative Agency",
     description:
       "Meet Optimism — an independent creative advertising agency founded on the belief that great work comes from optimistic thinking. Formerly Barrett Hofherr, reborn with a new name.",
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@type": "AboutPage",
+      name: "About Optimism BH",
+      url: `${SITE_URL}/about`,
+      description: "Optimism BH is an independent creative advertising agency in San Francisco, CA. Formerly Barrett Hofherr.",
+      mainEntity: {
+        "@type": "Organization",
+        name: "Optimism BH",
+        alternateName: "Barrett Hofherr",
+        url: SITE_URL,
+        foundingDate: "2010",
+        address: { "@type": "PostalAddress", addressLocality: "San Francisco", addressRegion: "CA", addressCountry: "US" },
+        sameAs: ["https://www.linkedin.com/company/optimismbh", "https://www.instagram.com/optimismbh"],
+      },
+    },
   },
   "/work": {
     title: "Our Work | Optimism BH Creative Agency",
     description:
       "Case studies and campaigns from Optimism. Work for Habit Burger Grill, Golden State Warriors, DoorDash, Walmart, Marvel, Chime, eBay, and more.",
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      name: "Our Work — Optimism BH",
+      url: `${SITE_URL}/work`,
+      description: "Creative campaigns and brand work from Optimism BH. Work for Habit Burger, Golden State Warriors, DoorDash, Walmart, Marvel, Chime, eBay, and more.",
+      creator: { "@type": "Organization", name: "Optimism BH", url: SITE_URL },
+    },
   },
   "/capabilities": {
     title: "Capabilities | Optimism BH Creative Agency",
     description:
       "Full-service creative agency capabilities: brand strategy, advertising, integrated production, media planning & buying, design, and data analytics.",
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      name: "Capabilities — Optimism BH",
+      url: `${SITE_URL}/capabilities`,
+      description: "Full-service creative agency capabilities: brand strategy, advertising, integrated production, media planning & buying, design, and data analytics.",
+      about: {
+        "@type": "ProfessionalService",
+        name: "Optimism BH",
+        url: SITE_URL,
+        serviceType: ["Brand Strategy", "Advertising", "Integrated Production", "Media Planning & Buying", "Design", "Data & Analytics"],
+      },
+    },
   },
   "/insights": {
     title: "Insights | Optimism BH Creative Agency",
     description:
       "Thinking on brand strategy, advertising, and culture from the team at Optimism.",
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@type": "Blog",
+      name: "Optimism BH Insights",
+      url: `${SITE_URL}/insights`,
+      description: "Thinking on brand strategy, advertising, and culture from the team at Optimism BH.",
+      publisher: { "@type": "Organization", name: "Optimism BH", url: SITE_URL },
+    },
+  },
+  "/news": {
+    title: "Insights | Optimism BH Creative Agency",
+    description:
+      "Thinking on brand strategy, advertising, and culture from the team at Optimism.",
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@type": "Blog",
+      name: "Optimism BH Insights",
+      url: `${SITE_URL}/news`,
+      description: "Thinking on brand strategy, advertising, and culture from the team at Optimism BH.",
+      publisher: { "@type": "Organization", name: "Optimism BH", url: SITE_URL },
+    },
   },
   "/people": {
     title: "Our Team | Optimism BH Creative Agency",
     description:
       "Meet the team at Optimism — strategists, creatives, producers, and media experts building brands that last.",
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      name: "Our Team — Optimism BH",
+      url: `${SITE_URL}/people`,
+      description: "Meet the strategists, creatives, producers, and media experts at Optimism BH.",
+      about: { "@type": "Organization", name: "Optimism BH", url: SITE_URL },
+    },
   },
   "/terms": {
     title: "Terms of Use | Optimism BH",
