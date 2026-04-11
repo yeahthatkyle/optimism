@@ -884,6 +884,52 @@ const WORK_SCHEMA = {
     n: "Gift Thoughtfully", h: "Hot sauce! Garden gnomes! Festive pillows! The list of thoughtful gift items at World Market never ends.",
     img: "1775628187012-icq4v.jpg",
   },
+
+  // ── Batch 5 (W–Z) ─────────────────────────────────────────────────────────────
+  "/work/world-market/gifts-of-gab": {
+    n: "Gifts of Gab", h: "Cost Plus World Market has an incredibly original selection of holiday ornaments and food.",
+    img: "1774126962501-f874t.webp",
+  },
+  "/work/world-market/make-it-magical": {
+    n: "Make It Magical", h: "Sleigh Ride recreated through the sounds made by World Market products.",
+    img: "1774293431453-28eakd.webp",
+  },
+  "/work/world-market/the-performance": {
+    n: "The Performance", h: "We set out to tell a relatable holiday story, but our real hope was to bring people a little joy.",
+    img: "1774272725146-6i24e.webp", kw: "Video",
+  },
+  "/work/wwe-2k/be-like-no-one": {
+    n: "Be Like No One", h: "You can be like your neighbor, your hero, or even Mike. Or you can be like no one.",
+    img: "1774291490428-ytnd4h.webp",
+  },
+  "/work/wwe-2k/goldberg-case-study": {
+    n: "Goldberg Case Study", h: "Retired wrestler from fake sport is brought back as video game character.",
+    img: "1775625780483-scargd.jpg",
+  },
+  "/work/wwe-2k/legends": {
+    n: "Legends", h: "A crowded room full of short-tempered wrestlers with massive egos.",
+    img: "1775625904788-vx6g7l.jpg",
+  },
+  "/work/wwe-2k/suplex-city": {
+    n: "Suplex City", h: "Brock Lesnar, the cover star for WWE 2K17.",
+    img: "1774286667892-dcdo7g.webp",
+  },
+  "/work/wwe-2k/suplex-city-case-study": {
+    n: "Suplex City Case Study", h: "Brock Lesnar, the cover star for WWE 2K17.",
+    img: "1774286667892-dcdo7g.webp",
+  },
+  "/work/xfl/xfl-case-study": {
+    n: "XFL Case Study", h: "The XFL had an awesome run until COVID hit.",
+    img: "1775629167561-wngl9hc.jpg",
+  },
+  "/work/yp/to-the-moon": {
+    n: "To The Moon", h: "When Yellow Pages became YP, they developed a digital offering that competed with powerhouse brands like Google.",
+    img: "1774273036227-zp6fz.webp", kw: "Video",
+  },
+  "/work/zappos/save-the-drama": {
+    n: "Save The Drama", h: "Don't be full of drama",
+    img: "1774278591705-tv3yv.webp", kw: "Video,Broadcast & Streaming Video,Digital Video",
+  },
 };
 
 // ─── STATIC FILES ─────────────────────────────────────────────────────────────
@@ -996,11 +1042,33 @@ function getMetaForPath(pathname) {
   // /work/{client}/{campaign}
   if (parts.length === 3 && parts[0] === "work") {
     const clientName = CLIENT_NAMES[parts[1]] || slugToTitle(parts[1]);
-    const campaignTitle = slugToTitle(parts[2]);
+    const ws = WORK_SCHEMA[pathname];
+    const campaignTitle = (ws && ws.n) || slugToTitle(parts[2]);
+    const headline = ws && ws.h;
+    const description = headline
+      ? `${headline} — A campaign by Optimism BH for ${clientName}.`
+      : `${campaignTitle} — a campaign by Optimism BH for ${clientName}.`;
+    const imgUrl = ws && ws.img ? `${IMG_BASE}${ws.img}` : undefined;
+    const keywords = ws && ws.kw;
+
+    const jsonLd = {
+      "@context": "https://schema.org",
+      "@type": "CreativeWork",
+      name: campaignTitle,
+      ...(headline && { headline }),
+      url: `${SITE_URL}${pathname}`,
+      creator: { "@type": "Organization", name: "Optimism BH", url: SITE_URL },
+      about: { "@type": "Organization", name: clientName },
+      ...(imgUrl && { image: imgUrl }),
+      ...(keywords && { keywords }),
+    };
+
     return {
       title: `${clientName}: ${campaignTitle} | Optimism BH`,
-      description: `${campaignTitle} — a campaign by Optimism for ${clientName}.`,
+      description,
       ogType: "article",
+      ...(imgUrl && { ogImage: imgUrl }),
+      jsonLd,
     };
   }
 
