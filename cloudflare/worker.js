@@ -1162,6 +1162,7 @@ function buildHeadTags(pathname, meta) {
     `<meta property="og:image" content="${ogImage}">`,
     `<meta property="og:site_name" content="${SITE_NAME}">`,
     `<meta name="twitter:card" content="summary_large_image">`,
+    `<meta name="twitter:site" content="@optimism_bh">`,
     `<meta name="twitter:title" content="${title}">`,
     `<meta name="twitter:description" content="${desc}">`,
     `<meta name="twitter:image" content="${ogImage}">`,
