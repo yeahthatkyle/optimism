@@ -268,7 +268,7 @@ const PAGE_META = {
   "/kyle-duford": {
     title: "Kyle Duford | Author, Brander, Assoc. Partner | Optimism BH",
     description:
-      "Kyle Duford is the author of 'The Brand Book,' 'Twice Found,' 'Optimism,' and 'Branding Without Permission.' He is also a partner at Optimism, an advertising agency in San Francisco.",
+      "Kyle Duford is the author of 'The Brand Book,' 'Twice Found,' 'Optimism,' and 'Branding Without Permission.' He is also an associate partner at Optimism, an advertising agency in San Francisco.",
     jsonLd: {
       "@context": "https://schema.org",
       "@type": "Person",
@@ -278,8 +278,8 @@ const PAGE_META = {
       url: "https://optimismbh.com/kyle-duford",
       image: "https://kiifubxvxfdlpmsrueob.supabase.co/storage/v1/object/public/photos/leadership/main-1775743150727.jpg",
       description:
-        "Kyle Duford is the author of 'The Brand Book,' 'Twice Found,' 'Optimism,' and 'Branding Without Permission.' He is also a partner at Optimism, an advertising agency in San Francisco.",
-      jobTitle: ["Author", "Brand Strategist", "Partner"],
+        "Kyle Duford is the author of 'The Brand Book,' 'Twice Found,' 'Optimism,' and 'Branding Without Permission.' He is also an associate partner at Optimism, an advertising agency in San Francisco.",
+      jobTitle: ["Author", "Brand Strategist", "Associate Partner"],
       worksFor: { "@type": "Organization", name: "Optimism", url: "https://optimismbh.com" },
       spouse: { "@type": "Person", name: "Jerushah Duford" },
       sameAs: [
